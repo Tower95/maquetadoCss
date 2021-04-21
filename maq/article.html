@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- HOJA DE ESTILOS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <title>Maquetado en frameworks de JavaScript</title>
+
+   
+</head>
+    <body>
+        <header id="header">
+            <div class="center">
+                <!-- LOGO -->
+                <div id="logo">
+                    <img src="assets/images/React.svg" class="app-logo" alt="Logotipo">
+                    <span id="brand">
+                        <strong>Curso</strong> react
+                    </span>
+                </div>
+                <!-- MENU -->
+                <nav id="menu">
+                    <ul>
+                        <li>
+                            <a href="index.html">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="blog.html">Blog</a>
+                        </li>
+                        <li>
+                            <a href="formulario.html">Formulario</a>
+                        </li>
+                        <li>
+                            <a href="#">Pagina 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Pagina 2</a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- LIMPIAR FLOTADOS -->
+                <div class="clearfix"></div>
+            </div>
+        </header>
+        <div class= "center">
+            <section id="content">
+                <!-- Listado articulos -->
+                
+                <article class="article-item article-detail" >
+                    <div class="image-wrap">
+                        <img src="http://www.ifam.es/colombia/wp-content/uploads/sites/13/2015/08/imagenes-de-paisajes-hermosos-4.jpg" alt="Paisaje">
+                    </div>
+                    <h1 class="subheader">Articulo de prueba</h1>
+                    <span class="date">Hace 5 min</span>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ultrices nibh eget dictum blandit. Integer consequat nisi non nunc aliquet pretium. Curabitur dictum arcu ac ullamcorper consectetur. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur eu velit ac nisi consectetur sodales. Nullam rutrum lacinia felis, ac dignissim eros imperdiet rhoncus. Aenean aliquet et diam in pharetra. Integer posuere ante at lectus elementum, vel tincidunt eros congue. Quisque posuere ex quis nunc convallis ultricies sed at massa. Phasellus ultrices congue lobortis. Integer mollis est et velit laoreet, quis tempus diam scelerisque.
+                    </p>
+                    <p>
+                        Praesent aliquet vitae lorem sit amet faucibus. Morbi at massa mollis, blandit libero et, feugiat lacus. Vivamus pulvinar lorem lectus, at vulputate lacus aliquet nec. Proin nibh odio, feugiat eget malesuada non, maximus tempor nunc. Vestibulum justo dui, egestas vitae convallis ac, commodo suscipit velit. Etiam porttitor tellus lacus, ullamcorper laoreet dolor volutpat sit amet. Etiam auctor, neque vel condimentum vulputate, enim erat sagittis eros, nec interdum quam arcu rutrum enim.
+                    </p>
+                    <p>
+                        Nam et lorem maximus, consequat nulla et, malesuada ex. Vivamus dolor ipsum, mattis vitae est sed, ultrices dictum elit. Phasellus pharetra auctor sollicitudin. Nam lobortis ante et dui ullamcorper egestas. Pellentesque quis commodo mauris. Aliquam lobortis vitae ante ac porta. Nam felis purus, feugiat id gravida in, tincidunt non risus. Nulla lectus ex, auctor eu cursus sit amet, dignissim nec metus.
+                    </p>
+                    <p>
+                        Cras dignissim porttitor nulla eget pretium. Praesent elit lectus, fermentum sed commodo sit amet, cursus non velit. Fusce at dictum ligula. Sed at faucibus nulla. Cras vel ex dui. Etiam vel scelerisque elit. Nam tincidunt orci sed ex malesuada consectetur. Aenean tristique accumsan diam ac fermentum. Nam tristique fermentum erat, eu condimentum diam convallis nec. Nunc scelerisque, ante id efficitur fermentum, metus nibh eleifend sapien, rutrum condimentum est sem non nisl. Maecenas bibendum condimentum sagittis. Morbi quis orci a sem tincidunt mattis. Aliquam sodales est vel tempus commodo. Suspendisse vestibulum neque blandit turpis tempor finibus.
+                    </p>
+                    <p>
+                        Proin ut euismod lacus. Aliquam bibendum dui a velit dignissim aliquam. Cras sed nisi enim. Nunc vel iaculis magna. Ut in vulputate ante. Pellentesque sed sagittis eros, non rhoncus leo. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum rhoncus felis in metus accumsan, id molestie turpis auctor. Proin porta tempus lacus, convallis ornare mauris euismod non. Aliquam pulvinar augue nibh, quis iaculis est tempus consectetur. In ante odio, viverra at erat at, congue ultrices libero. Nullam ac risus semper, consectetur magna sit amet, congue arcu. Vestibulum eget felis ut erat convallis rutrum. Nunc placerat ante vitae sem luctus, id pellentesque odio tristique. Quisque quis urna molestie, consectetur ipsum vel, fringilla nisl.
+                    </p>
+                    <div class="clearfix"></div>
+                </article>
+                <!-- Añadir articulos via JS -->
+               
+            </section>
+            
+            <aside id="sidebar">
+                <div id="nav-blog" class="sidebar-item">
+                    <h3>Puedes hacer esto</h3>
+                    <a href="#" class="btn btn-succes">crear articilo</a>
+                </div>
+                <div id="search" class="sidebar-item">
+                    <h3>Buscador</h3>
+                    <p>Encuentra el artículo que buscas</p>
+                    <form action="">
+                        <input type="text" name="search" />
+                        <input class="btn" type="submit" name="submit" value="buscar"/>
+                    </form>
+                </div>
+            </aside>
+            <div class="clearfix"></div>
+        </div>
+        <footer id="footer">
+            <div class="center"><p>&COPY; Ismael Torres</p></div>
+        </footer>
+        
+    </body>
+</html>
